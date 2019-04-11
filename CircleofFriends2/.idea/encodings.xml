@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/circleoffriends/friends_circle.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/circleoffriends/login.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/circleoffriends/regist.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/btn_weixin.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/dl.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_bg.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_came.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_img.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/line_border.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/circle/src/main/java/com/example/circle/comment.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/circle/src/main/java/com/example/circle/login.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/circle/src/main/java/com/example/circle/regist.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/circle/src/main/res/drawable/btn_weixin.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/circle/src/main/res/drawable/ic_flower.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/circle/src/main/res/drawable/ic_img.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/circle/src/main/res/drawable/ic_publish.png" charset="UTF-8" />
+  </component>
+</project>
