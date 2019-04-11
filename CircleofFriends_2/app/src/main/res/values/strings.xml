@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Circle of Friends</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_regist">regist</string>
+    <string name="title_activity_friends_circle">friends_circle</string>
+    <string name="title_activity_publish">publish</string>
+    <string name="title_activity_lists_view_layout">lists_view_layout</string>
+</resources>
