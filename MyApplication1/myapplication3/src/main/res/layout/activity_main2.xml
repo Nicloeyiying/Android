@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.example.myapplication.MainActivity2"
+    android:background="@drawable/ic_b"
+    android:id="@+id/RelativeLayout"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginText"
+        android:layout_alignParentTop="false"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/appendText"
+        android:layout_alignTop="@+id/loginText"
+        android:layout_toRightOf="@+id/loginText"
+        android:layout_toEndOf="@id/loginText" />
+</RelativeLayout>

@@ -1,0 +1,206 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    android:id="@+id/relativeLayout"
+    android:background="@drawable/ic_bc">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp"
+        android:id="@+id/relativeLayout2"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用户名:"
+            android:id="@+id/nameText"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentEnd="false"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_alignRight="@+id/rePasswordText"
+            android:layout_alignLeft="@+id/rePasswordText"
+            android:gravity="center" />
+
+        <EditText
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/nameEdit"
+            android:layout_alignBottom="@+id/nameText"
+            android:layout_toEndOf="@id/nameText"
+            android:background="@null"
+            android:layout_toRightOf="@+id/nameText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密    码:"
+            android:id="@+id/passwordText"
+            android:layout_below="@+id/nameText"
+            android:layout_alignParentStart="true"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_alignRight="@+id/rePasswordText"
+            android:layout_alignLeft="@+id/rePasswordText"
+            android:gravity="center" />
+
+        <EditText
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/passwordEdit"
+            android:background="@null"
+            android:layout_alignBottom="@+id/passwordText"
+            android:layout_toRightOf="@+id/passwordText"
+            android:layout_toEndOf="@id/passwordText"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="确认密码:"
+            android:id="@+id/rePasswordText"
+            android:layout_below="@+id/passwordText"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:gravity="center" />
+
+        <EditText
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/rePasswordEdit"
+            android:background="@null"
+            android:layout_alignStart="@+id/radioGroup"
+            android:layout_toRightOf="@+id/rePasswordText"
+            android:layout_alignBottom="@+id/rePasswordText"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="性    别:"
+            android:id="@+id/sexText"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/rePasswordText"
+            android:layout_marginTop="5dp"
+            android:layout_alignRight="@+id/rePasswordText"
+            android:layout_alignLeft="@+id/rePasswordText"
+            android:gravity="center" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_toEndOf="@id/rePasswordText"
+            android:layout_marginRight="5dp"
+            android:id="@+id/radioGroup"
+            android:layout_below="@+id/rePasswordEdit"
+            android:layout_alignBottom="@+id/sexText">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="男"
+                android:id="@+id/nan"
+                android:textSize="16dp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="女"
+                android:id="@+id/女"
+                android:layout_gravity="center_horizontal"
+                android:textSize="16dp" />
+        </RadioGroup>
+
+        <ImageView
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:id="@+id/imageView"
+            android:layout_alignParentStart="false"
+            android:src="@drawable/per"
+            android:layout_toStartOf="@+id/nameText"
+            android:layout_marginRight="2dp"
+            android:layout_alignTop="@+id/nameText" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/imageView2"
+            android:layout_alignTop="@+id/passwordText"
+            android:src="@drawable/mima"
+            android:layout_toStartOf="@id/passwordText"
+            android:layout_marginRight="2dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="爱好："
+            android:id="@+id/textView5"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GAME"
+            android:id="@+id/game"
+            android:nestedScrollingEnabled="false" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BOOK"
+            android:id="@+id/book" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SPORTS"
+            android:id="@+id/sports" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="注册"
+            android:id="@+id/register"
+            android:background="@drawable/dl"
+            android:gravity="center"
+            android:layout_alignParentTop="false"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentLeft="false"
+            android:textSize="18dp"
+            android:padding="5dp"
+            android:onClick="login" />
+    </RelativeLayout>
+</RelativeLayout>
